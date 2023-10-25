@@ -1,0 +1,114 @@
+img
+{
+    width: 100%;
+    
+}
+h1 
+{
+    color: rgb(64, 45, 15);
+      font-size: 35px;
+      font-family: Helvetica;
+  }
+h4
+{
+    color: rgb(127, 63, 15);
+      font-size: 35px;
+      font-family: Helvetica;
+  }
+a
+{
+    color: rgb(123, 84, 37);
+    font-size: 15px;
+    font-family: Helvetica; 
+}
+body 
+{
+    color: rgb(110, 79, 33);     /* Text color */
+      background-color: #977347;  /* Background color */
+  }
+  h2
+{
+    color: rgb(157, 136, 101);     /* Text color */
+      background-color: #FFE8BB;  /* Background color */
+      font-size: 35px;
+      font-family: Helvetica;
+    }
+
+  body 
+  {
+    font-size: 30px;
+      line-height: 0.8;
+      letter-spacing: 1px;
+  }
+
+  img
+    {
+    display: block;
+    margin: 0 auto; /* Centrer l'image horizontalement */
+  }
+ body
+  {
+    text-align: center; /* Centrer le contenu horizontalement */
+  }
+  a 
+  {
+    color: rgb(94,65,7);
+    text-decoration: none;
+    transition: color 0.2s ease;
+    background-color: #FFE8BB
+    
+  }
+  a:hover 
+  {
+    color: rgb(234, 217, 196);
+    text-decoration: none;
+    background-color: #5e4107
+  }
+  h1, h2, h3
+  {
+    font-family: "Helvetica", sans-serif; /* if all headers use Helvetica */
+  }
+  .img-circle 
+  { 
+    width: 200px;
+	height: 260px;
+    border-radius: 25%;
+  }
+  .img-bordered 
+  {
+    border: 10px solid rgb(248, 220, 168);
+  }
+ div
+  {
+    width: 300px;     /* Fix the width first*/
+    margin: 10px auto; /* Let CSS compute the same left & right margins automatically*/
+    background: rgb(255, 232, 187); 
+    padding: 30px;
+    border-radius: 75px; 
+    box-shadow: 4px 4px 6px rgb(78, 57, 26); 
+
+  }
+  .container 
+  {
+    width: 700px; /* set the width of your container */
+    margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+  }
+  
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
